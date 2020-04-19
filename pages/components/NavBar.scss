@@ -1,0 +1,46 @@
+// components/NavBar.scss
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono');
+
+$logo-font: 'Share Tech Mono', monospace;
+$header-font: 'Raleway', sans-serif;
+$core-font: 'Merriweather Sans', sans-serif;
+
+
+$primary: #FFFFFF;
+$primary-light: #ffffff;
+$primary-dark: #cccccc;
+
+$secondary: #2a3747;
+$secondary-light: #546172;
+$secondary-dark: #011120;
+
+$on-primary: #000;
+$on-primary-light: #A1A1A1;
+$on-secondary: #fff;
+
+$highlight: #FA4141;
+
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 5px 0;
+    background: $primary;
+    font-family: $core-font;
+    font-size: 22px;
+    color: $on-primary-light;
+    box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .active {
+        color: $highlight;
+    }
+}

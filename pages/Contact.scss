@@ -1,0 +1,17 @@
+// styling for contact page
+
+.contactHeader {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+   
+    width: 100%;
+    padding: 0 20px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+}

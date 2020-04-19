@@ -1,0 +1,52 @@
+
+.portfolio-frame {
+    height: 150px;
+    width: 150px;
+    border: none;
+}
+
+.profile-image {
+    margin-top: 80px;
+    height: 180px;
+    width: 180px;
+    border-color: rgb(50,50,50);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+}
+
+.portfolio-image {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+.grid {
+    padding: 0;
+    max-width: 90%;
+    list-style: none;
+    display: inline;
+    margin-top: 20px;
+}
+
+.about-parr {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.portfolio-parr {
+    font-family: Georgia;
+  
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
