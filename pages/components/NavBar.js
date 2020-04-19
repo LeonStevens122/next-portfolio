@@ -1,5 +1,5 @@
 // import navbuttons and styling
-import "./NavBar.scss";
+
 import NavButton from "./NavButton";
 
 // export navbar component 

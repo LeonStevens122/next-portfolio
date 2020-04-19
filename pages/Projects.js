@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Layout from "./components/Layout";
 // Import styling SCSS File
-import "./Projects.scss";
+
 
 
 // Create Projects object, NEXT routes as a page

@@ -1,5 +1,5 @@
 import Layout from "./components/Layout";
-import './Contact.scss'
+
 
 // contact page with contact details
 const Contact = props => {

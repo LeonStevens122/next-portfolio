@@ -3,11 +3,8 @@
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Head from "next/head";
-import navButtons from './buttons';
+import navButtons from '../../config/buttons';
 
-// import styling
-import "./Layout.scss";
-import "./index.scss";
 
 // export Layoit component
 const Layout = props => {

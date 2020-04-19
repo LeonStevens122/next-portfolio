@@ -2,7 +2,7 @@
 
 import Layout from "./components/Layout";
 
-import './About.scss';
+
 
 // about component exports the component 
 const About = (props) => {
