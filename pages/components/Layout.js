@@ -1,9 +1,17 @@
 // components/Layout.js
 // import components
-import Header from "./Header";
+//import Header from "./Header";
 import NavBar from "./NavBar";
 import Head from "next/head";
 import navButtons from '../../config/buttons';
+import Link from "next/link";
+
+
+const Header = props => (
+    <Link href="/">
+        <div className="Header">{props.appTitle}</div>
+    </Link>
+);
 
 
 // export Layoit component
