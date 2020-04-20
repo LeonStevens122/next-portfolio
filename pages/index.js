@@ -1,7 +1,4 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from './components/Header';
-import Layout from "./components/Layout";
+
 import About from './About'
 
 
