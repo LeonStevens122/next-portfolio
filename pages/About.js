@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 
 
 // about component exports the component 
-const About = (props) => {
+const About = () => {
   return (
       <Layout>
 

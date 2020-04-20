@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\config",
     "\\pages",
     "\\pages\\components"
   ],
+  "SelectedNode": "\\pages\\components\\NavButton.js",
   "PreviewInSolutionExplorer": false
 }

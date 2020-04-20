@@ -1,7 +1,7 @@
 // import navbuttons and styling
 
-import NavButton from "./NavButton";
-
+//import NavButton from "./NavButton";
+import Link from "next/link";
 
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -33,6 +33,15 @@ const navButtons = [
     }
 
 ];
+
+const NavButton = (props) => (
+    <Link href={props.path}>
+        <div className="NavButton">
+            <div className="Icon">{props.icon}</div>
+            <span className="Label">{props.label}</span>
+        </div>
+    </Link>
+);
 
 
 // export navbar component 
