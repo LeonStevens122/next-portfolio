@@ -5,19 +5,32 @@ import NavBar from "./NavBar";
 import Head from "next/head";
 import navButtons from '../../config/buttons';
 import Link from "next/link";
-
+import { initGA, logPageView } from '../../utils/analytics';
 
 const Header = props => (
     <Link href="/">
         <div className="Header">{props.appTitle}</div>
     </Link>
 );
-
+const appTitle = 'Leon Stevens Next.JS Profile';
 
 // export Layoit component
-const Layout = props => {
-    const appTitle = 'Leon Stevens Next.JS Profile';
 
+export default class Layout extends React.Component {
+
+    constructor(props) {
+        super(props);
+        
+    }
+
+    componentDidMount() {
+        if (!window.GA_INITIALIZED) {
+            initGA()
+            window.GA_INITIALIZED = true
+        }
+        logPageView()
+    }
+    render() {
     return (
         <div className="Layout">
             <Head>
@@ -32,6 +45,7 @@ const Layout = props => {
             <NavBar navButtons={navButtons}  />
         </div>
     )
+    }
 };
 
 export default Layout;
