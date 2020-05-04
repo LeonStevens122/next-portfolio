@@ -16,7 +16,7 @@ const appTitle = 'Leon Stevens Next.JS Profile';
 
 // export Layoit component
 
-export default class Layout extends React.Component {
+class Layout extends React.Component {
 
     constructor(props) {
         super(props);
